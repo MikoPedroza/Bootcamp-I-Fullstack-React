@@ -1,0 +1,26 @@
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectLabel,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
+
+export function OrderSelect() {
+    return (
+        <Select>
+            <SelectTrigger className="w-[140px]">
+                <SelectValue placeholder="Select Order" />
+            </SelectTrigger>
+            <SelectContent>
+                <SelectGroup>
+                {/* <SelectLabel>Fruits</SelectLabel> */}
+                <SelectItem value="asc">Asc</SelectItem>
+                <SelectItem value="dsc">Dsc</SelectItem>
+                </SelectGroup>
+            </SelectContent>
+        </Select>
+    )
+}

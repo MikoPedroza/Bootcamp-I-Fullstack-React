@@ -1,0 +1,11 @@
+
+/* Names will be converted (xxx-aaa) -> (xxxAaa) */
+.userDetails {
+    text-align: left;
+    padding: 40px;
+    background-color: black;
+}
+
+.border {
+    border-radius: 8px;
+}
